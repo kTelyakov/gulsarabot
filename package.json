@@ -1,0 +1,22 @@
+{
+  "name": "gulsarabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "https-proxy-agent": "^5.0.0",
+    "image-downloader": "^4.0.1",
+    "node-telegram-bot-api": "^0.40.0",
+    "telegraf": "^3.38.0",
+    "telegraf-inline-menu": "^4.0.1",
+    "videoshow": "^0.1.12"
+  }
+}
